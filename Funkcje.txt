@@ -1,0 +1,42 @@
+Do ilustracji w sprawozdaniu: (?)
+Eksponencjalna 2:(dobre do ilustracji)
+sin(x1+x2)+(x1-x2)**2-1.5*x1+2.5*x2+1
+punkt 2, 3
+punkt -3, -2.7
+punkt  3, 2.5
+punkt  -0.5, -1
+punkt -2.75, 1.5
+punkt 2.2, -4
+-0.6, -1.3
+-0.3, -0.8
+
+Wielbłąd z 3 garbami:
+2*x1**2-1.05*x1**4+(1/6)*x1**6+x1*x2+x2**2
+punkt 0.3, 0.5
+punkt 0.3, 1 dobrze widać kształt, ląduje w min glob
+punkt 0.3, 1.5 tak samo
+punkt -0.3, -0.8 min globalne
+punkt -0.6, -1.3 dobrze
+punkt 1.8, 0.75 min lokalne prawe
+punkt -1, -1 ląduje w punkcie stacjonarnym a nie w min
+
+Geem'a
+4*x1**2-2.1*x1**4+((x1**6)/3)+x1*x2-4*x2**2+4*x2**4
+-3, 3
+0, 4
+1, -4 ( wpada w punkt stacjonarny, nie ma min)
+1.5, -4 min lok prawe
+
+
+
+
+Funkcje do kopiowania:
+Himmelblau'a:
+x1 ** 2 + x2 - 11) ** 2 + (x1 + x2 ** 2 - 7) ** 2 - 200
+
+Eksponencjalna 1:
+sin(x1)*sin(x2)*exp(-x1**2 - x2**2)
+dobry punkt -0.5, 0.7
+
+3 zmienne:
+(x1-x2+ x3)**2+(-x1+x2+x3)**2+(x1+x2-x3)**2
